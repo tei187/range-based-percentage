@@ -19,8 +19,8 @@ echo $calculator->getPercentage(18); // get for 18, echoes "54.166666666667"
 ```php
 $calculator = new tei187\Utilities\RangeBasedPercentage;  // initiate object
 
-echo $calculator->setRange(5, 29)->getPercentage(18); // echoes "54.166666666667"
-echo $calculator->setRange(5, 11)->getPercentage(9); // echoes "66.666666666667"
+echo $calculator->setRange(5, 29)->getPercentage(18); // echoes "54.16667"
+echo $calculator->setRange(5, 11)->setRound(2)->getPercentage(9); // echoes "66.67"
 ```
 
 ## Requirements
