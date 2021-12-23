@@ -1,0 +1,31 @@
+{
+    "name": "tei187/range-based-percentage",
+    "type": "library",
+    "description": "RangeBasedPercentage is a utility helping to calculate the percentage of a number in given range.",
+    "homepage": "https://github.com/tei187/range-based-percentage",
+    "license": "MIT",
+    "keywords": [
+        "calculator",
+        "range",
+        "percentage"
+    ],
+    "autoload": {
+        "psr-4": {
+            "tei187\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "tei187",
+            "email": "bonk.piotr@gmail.com",
+            "role": "developer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.0"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}

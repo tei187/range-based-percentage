@@ -1,5 +1,5 @@
 <?php
-    namespace tei187\Utilities;
+    namespace tei187;
 
     /**
      * Class designed to find percentage of a value based on start and end points (with these points being lower and upper limits).

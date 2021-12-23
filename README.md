@@ -11,13 +11,13 @@ Examples:
 ## How to use?
 ### Standard
 ```php
-$calculator = new tei187\Utilities\RangeBasedPercentage(5, 29);  // initiate object with range 5-29
+$calculator = new tei187\RangeBasedPercentage(5, 29);  // initiate object with range 5-29
 echo $calculator->getPercentage(18); // get for 18, echoes "54.166666666667"
 ```
 
 ### Method chaining
 ```php
-$calculator = new tei187\Utilities\RangeBasedPercentage;  // initiate object
+$calculator = new tei187\RangeBasedPercentage;  // initiate object
 
 echo $calculator->setRange(5, 29)->getPercentage(18); // echoes "54.16667"
 echo $calculator->setRange(5, 11)->setRound(2)->getPercentage(9); // echoes "66.67"
